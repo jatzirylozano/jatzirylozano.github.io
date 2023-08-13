@@ -1,0 +1,76 @@
+*{
+    margin: 0!important; 
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@700&display=swap');
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: rgb(12, 21, 44, 0.5);
+  }
+  
+  header .navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header .navbar-nav .nav-link{
+    margin: 0px 0px 0px 102px !important;
+    font-family: "Lunasima", sans-serif;
+    font-size: 20px; 
+    color: rgba(209, 207, 247, 0.938);
+  }
+  
+  .nav-link::selection{
+    color: blueviolet;
+  }
+  
+  header .navbar-nav .nav-link:hover{
+    color: #fcabff;
+    cursor: pointer;
+  }
+
+
+
+.intro{
+    color: blanchedalmond;
+}
+h5::selection{
+    color: blueviolet;
+  }
+h1::selection{
+    color: blueviolet;
+  }
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px -30px 0px 0px !important;
+}
+
+body{
+    background-image: url(imagenes/campo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 150px 10px 0px !important;
+}
+
+h5{
+    margin: 0px 100px 0 0px !important;
+}
+footer{
+    background-color: rgb(12, 21, 44);
+    color: rgb(255, 255, 255);
+}
