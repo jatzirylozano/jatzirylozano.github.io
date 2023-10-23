@@ -71,7 +71,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin: 15px 0px 0px 60px !important;
+    margin: 15px 0px 0px 120px !important;
     color:rgb(255, 255, 255)
 
 }
@@ -80,17 +80,21 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 80px 0px 0px 20px !important;
+    margin: 80px 0px 0px 85px !important;
 }
 
 .estrellas{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0px 0px 10px !important;
+    margin: 20px 0px 0px 80px !important;
+}
+
+h5{
+   margin: 40px 0 10px 0 !important; 
 }
 .centro{
-    margin: 45px 130px 0px 0px !important;
+    margin: 45px 140px 0px 80px !important;
     color: rgb(255, 255, 255);
 }
 
@@ -98,7 +102,7 @@ h4{
     font-family: 'Sriracha', cursive;
     font-size: 20px;
     color: rgb(243, 243, 243);
-    margin: 60px 30px 0px 0px !important;
+    margin: 80px 80px 0px 0px !important;
 }
 
 footer{
@@ -109,5 +113,5 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 60px 0px 90px 0px !important;
+    margin: 80px 0px 90px 0px !important;
 }
